@@ -25,8 +25,8 @@ export class Renderer {
 
   private readonly _mainFontName = "Urbanist";
   private readonly _mainFontFileName = "urbanist-medium.ttf";
-  private readonly _titleFontName = "urbanist-extra-bold.ttf";
-  private readonly _titleFontFileName = "Urbanist bold";
+  private readonly _titleFontName = "Urbanist bold";
+  private readonly _titleFontFileName = "urbanist-extra-bold.ttf";
 
   /**
    * Initiate the Renderer and Canvas instance

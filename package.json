@@ -1,12 +1,31 @@
 {
   "name": "next-dynamic-image",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Next.js dynamic image generator",
+  "keywords": [
+    "NextJS 15",
+    "NextJS API Router",
+    "node canvas",
+    "image generator",
+    "og image generator"
+  ],
+  "author": {
+    "url": "https://mehdijai.com",
+    "name": "Mehdi Jai"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehdijai/next-dynamic-image"
+  },
+  "homepage": "https://github.com/mehdijai/next-dynamic-image",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
     "canvas": "^3.0.1",
